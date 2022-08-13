@@ -34,7 +34,7 @@ export function Input({ icon, value, ...rest }: InputProps) {
       <InputText
         onFocus={handleInputFocus}
         onBlur={handleInputBlur}
-        isFocused={isFocused}
+        isFocused={isFocused}        
         value={value}
         {...rest}
       />
